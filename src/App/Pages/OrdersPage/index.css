@@ -1,0 +1,36 @@
+.spinner-container {
+    display: flex;
+    justify-content: center;
+}
+.order-container{
+    display: flex;
+    flex-direction: column;
+}
+.image-not-found{
+    height: 280px;
+    width: 380px;
+}
+.not-found-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.explore-button {
+    height: 40px;
+    border: none;
+    background-color: rgb(230, 150, 105);
+    color: white;
+    font-weight: 550;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+@media (max-width: 767px) {
+    .order-page{
+        padding: 5px;
+    }
+}

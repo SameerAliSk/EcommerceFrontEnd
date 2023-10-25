@@ -1,0 +1,43 @@
+.new-feature-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.coming-soon-image{
+    width: 40%;
+}
+.go-back-button{
+    width: 90px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(42, 42, 252);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.order-placed-image{
+    width: 30%;
+}
+.order-placed-button-container{
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .coming-soon-image{
+        width: 100%;
+    }
+    .order-placed-image{
+        width: 100%;
+    }
+}
+
+@media (max-width: 568px) {
+    .order-placed-button-container{
+        flex-direction: column;
+    }
+}

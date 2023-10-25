@@ -1,0 +1,118 @@
+.brand-image-container{
+    background-color: inherit ;
+    padding: 1px;
+    width: 110px;
+    height: 60px;
+    text-align: center;
+  }
+  .cashback-text{
+    font-size: .75rem;
+    background-color: #edfcbb;
+    color: green;
+    padding: 0 .5rem;
+    width: fit-content;
+  }
+  .colored-cards-inner-container{
+    display: grid;
+    grid-template-columns: 60% 40%; 
+    padding: 1rem;
+    align-items: center;
+  }
+  .colored-cards-image-container{
+    padding: .5rem 1rem; 
+    background-color: #c1e0f7;
+    width: fit-content; 
+    border-radius: 4px;
+  }
+  .brand-container{
+    display: flex; 
+    flex-direction: column;
+    /* margin: 1rem; */
+    width: fit-content;
+    align-items: center;
+    gap: .5rem;
+  }
+  .brands-text{
+    margin: unset;
+  }
+  .logo-img{
+    width: 100px;
+    height: 50px;
+  }
+  .brand-container:hover>.brand-image-container>.logo-img{
+    width: 110px;
+    height: 60px;
+  }
+  .brand-name{
+    background-color: rgb(26, 25, 25);
+    color: ghostwhite;
+    padding: .75rem;
+    width: 120px;
+    text-align: center;
+  }
+  .colored-cardd-links{
+    text-decoration: unset;
+    color: unset;
+  }
+  .brands-collective-container{
+    column-gap: 8px;
+    row-gap: 16px;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .colored-cards-container>*{
+    margin: unset;
+  }
+  .colored-cards-container{
+    padding: 0 1rem;
+    width: 100%;
+    /* height: 200px; */
+    background-image: linear-gradient(to bottom ,#92c8f5,#d7e9f5 95% , #f1fad2 );
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px rgb(139, 139, 139);
+    /* margin: 1rem; */
+  }
+  .colored-cards-description>*{
+    margin: unset;
+  }
+  .colored-cards-description>h4{
+    margin-top: .5rem ;
+  }
+  .colored-cards-description{
+    width: 100%;
+  }
+  .mobile-page-link{
+    color: inherit;
+    text-decoration: none;
+  }
+  .mobile-page-link:hover{
+    color: rgb(44, 128, 238);
+  }
+  .mobile-page-medium-sized-card-container,  .mobile-page-medium-sized-card-inner-container{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+  }
+  .mobile-page-medium-sized-card-container{
+    margin: 1rem;
+  }
+  .mobile-page-medium-sized-card-inner-container{
+    text-align: center;
+  }
+  .medium-sized-card-rating-container{
+    display: flex;
+    gap: .5rem;
+  }
+@media (max-width:1100px) {
+  .brands-collective-container{
+    grid-template-columns: auto auto auto auto;
+  }
+}
+@media (max-width:700px) {
+  .brands-collective-container{
+    grid-template-columns: auto auto auto;
+  }
+}

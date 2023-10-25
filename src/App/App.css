@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+.orange-button{
+	width: 12rem;
+  height: 3rem;
+  background-color: #fb5e10;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  padding: 6px 16px;
+  color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
+  transition: all linear;
+  border: none;
+  cursor: pointer;
+	margin-left: 20px;
+  outline: none;
+}
+.orange-button:disabled{
+  background-color: gray;
+  cursor: not-allowed;
+}
+.orange-button:active&:not(:disabled){
+  transform: scale(.9);
+}

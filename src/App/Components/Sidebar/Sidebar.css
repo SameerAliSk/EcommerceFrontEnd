@@ -1,0 +1,17 @@
+.side-bar{
+  float: left;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.filter-button{
+  background-color: rgb(234, 234, 238);
+  padding: 0 10px;
+  color: rgb(34, 34, 34);
+}
+@media (max-width:768px) {
+  .side-bar{
+    margin: unset;
+  }
+}

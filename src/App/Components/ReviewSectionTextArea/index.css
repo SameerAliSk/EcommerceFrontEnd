@@ -1,0 +1,12 @@
+.add-review-field-container{
+    display: flex;
+    flex-direction: column;
+}
+.add-review-text-area-field{
+    outline: none;
+    border: 1px solid lightgray;
+}
+.add-review-text-area-field:focus {
+    outline: 1px solid black;
+    border: none;
+}

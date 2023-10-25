@@ -1,0 +1,27 @@
+.product-item-image{
+    height: 120px;
+    width: 120px;
+    margin-right: 35px;
+}
+.product-item-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.item-card-container{
+    display: flex;
+    margin: 8px;
+    box-shadow: 0px 0px 2px 0px gray;
+    border-radius: 4px;
+    padding: 4px;
+}
+.product-item-detail-content{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.price-qty{
+    font-weight: 400;
+}
+

@@ -1,0 +1,13 @@
+.something-went-wrong-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.someting-went-wrong-image {
+    width: 50%;
+}
+@media (max-width: 767px) {
+    .someting-went-wrong-image{
+        width: 80%;
+    }
+}

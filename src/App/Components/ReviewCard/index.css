@@ -1,0 +1,37 @@
+.review-card{
+    border-top: 0.5px solid lightgray;
+}
+.review-card-rating-container{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(20, 158, 20);
+    color: white;
+    width: fit-content;
+    padding: 3px 5px 3px 5px;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+.review-card-header{
+    display: flex;
+    align-items: center;
+}
+.review-user-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+.review-content{
+    font-size: 16px;
+    margin-top: 0px;
+}
+.review-card-footer{
+    display: flex;
+    color: rgb(177, 174, 174);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.review-card-footer-content{
+    margin-left: 8px;
+}

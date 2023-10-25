@@ -1,0 +1,55 @@
+.compare-button-container{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    text-align: right;
+    z-index: 999;
+}
+.compare-button-helper-text{    
+    background-color: rgb(200, 229, 247);
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px gray ;
+    padding: .5rem;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+}
+.compare-button-container:hover .compare-button-helper-text{
+    display: flex;
+    animation: fade-in 0.5s; 
+}
+.clear-icon{
+    color: inherit;
+    cursor: pointer;
+}
+.compare-button{
+    width: 10rem;
+    height: 3.5rem;
+    background-color: #2874f0;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px white;
+}
+.compare-button:disabled{
+    background-color: gray;
+}
+.compare-length{
+    background-color:rgba(0,0,0,.2) ;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+@keyframes fade-in {
+    0% {
+         opacity: 0;
+         transform: scale(0)
+    }
+
+    100% {
+         opacity: 1;
+         transform: scale(1)
+    }
+}
